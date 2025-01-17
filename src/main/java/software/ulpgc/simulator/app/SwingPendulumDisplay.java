@@ -14,7 +14,7 @@ public class SwingPendulumDisplay extends JPanel {
 
     public SwingPendulumDisplay() {
         setPreferredSize(new Dimension(800, 600));
-        setBackground(Color.WHITE);
+        setBackground(Color.DARK_GRAY);
 
         addMouseListener(new MouseAdapter() {
             @Override
